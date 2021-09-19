@@ -1,4 +1,4 @@
-/*
+/**
  * @param {character[][]} grid
  * @return {number}
  */
@@ -9,8 +9,8 @@ const numIslands = (grid) => {
   let countIslands = 0
   const rowsCount = grid.length
   const columnsCount = grid[0].length
-  for (var i = 0; i < rowsCount; i++) {
-  	for(var j = 0; j < columnsCount; j++) {
+  for (let i = 0; i < rowsCount; i++) {
+  	for(let j = 0; j < columnsCount; j++) {
     	if(grid[i][j] == 1) {
       	countIslands++
       	colorIsland(grid, i, j, rowsCount, columnsCount)
@@ -23,7 +23,7 @@ const numIslands = (grid) => {
 
 let colorIsland = (grid, i, j, rowsCount, columnsCount) => {
 	if (i < 0 || j < 0 || i >= rowsCount || j >= columnsCount || grid[i][j] == 0)
-    return
+    	return
   
 	grid[i][j] = 0
   
