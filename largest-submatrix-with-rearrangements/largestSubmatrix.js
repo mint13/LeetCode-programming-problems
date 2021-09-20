@@ -40,3 +40,5 @@ const counting = (column, max) => {
 
 	return max
 }
+
+module.exports.largestSubmatrix = largestSubmatrix
