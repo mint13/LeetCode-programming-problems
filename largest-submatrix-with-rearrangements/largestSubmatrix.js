@@ -4,7 +4,20 @@
  */
 
  const largestSubmatrix = (matrix) => {
-
+	let n = matrix.length
+	let m = matrix[0].length
+	let col = new Array(m).fill(0)
+	let res = 0
+	for (let i = 0; i < n; i++) {
+		for (let j = 0; j < m; j++) {
+			if (matrix[i][j]) 
+				col[j]++
+			else
+				col[j] = 0
+		}
+		res = counting(col, res)
+	}
+	return res
 }
 
 const counting = (column, max) => {
