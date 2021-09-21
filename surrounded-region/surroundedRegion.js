@@ -33,3 +33,5 @@ const depthFirstSearch = (board, x, y, xLen, yLen) => {
     depthFirstSearch(board, x, y - 1, xLen, yLen)
   }
 }
+
+module.exports.surroundedRegions = solve
