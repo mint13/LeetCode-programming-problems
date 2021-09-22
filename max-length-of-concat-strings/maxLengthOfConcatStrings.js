@@ -31,3 +31,5 @@ const isUnique = (s = '') => {
 	}
 	return true
 }
+
+module.exports.maxLength = maxLength
