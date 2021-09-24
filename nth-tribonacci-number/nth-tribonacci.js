@@ -18,3 +18,5 @@ const tribonacci = (n) => {
 	} 
 	return a // return the end
 }
+
+module.exports.tribonacci = tribonacci
