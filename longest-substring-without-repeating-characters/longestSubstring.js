@@ -2,7 +2,6 @@
  * @param {string} s
  * @return {number}
  */
-
 const lengthOfLongestSubstring = (s) => {
 	// if string input is empty or not a string, return 0
 	if (!!!s.length || typeof s !== 'string') 
@@ -36,3 +35,5 @@ const lengthOfLongestSubstring = (s) => {
 
 	return longestSubstringLength
 }
+
+module.exports.lengthOfLongestSubstring = lengthOfLongestSubstring
