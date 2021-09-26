@@ -30,3 +30,5 @@ const subarraysWithKDistinct = (A, K) => {
 	}
 	return atMost(K) - atMost(K - 1)
 }
+
+module.exports.subarraysWithKDistinct = subarraysWithKDistinct
