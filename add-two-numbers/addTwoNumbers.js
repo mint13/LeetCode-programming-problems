@@ -12,3 +12,8 @@
  */
 const addTwoNumbers = (l1, l2) => {
 }
+
+function ListNode(val) {
+  this.val = val
+  this.next = null
+}
