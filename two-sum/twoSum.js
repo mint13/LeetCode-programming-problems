@@ -14,3 +14,5 @@
 	}
 	return aux(0, nums.length - 1)
 }
+
+module.exports.twoSum = twoSum
