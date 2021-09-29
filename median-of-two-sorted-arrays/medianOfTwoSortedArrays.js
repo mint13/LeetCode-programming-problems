@@ -21,3 +21,5 @@ const merge = (xs1, xs2) => {
 	const [hd2, ...rest2] = xs2
 	return hd1 <= hd2 ? [hd1, ...merge(rest1, xs2)] : [hd2, ...merge(xs1, rest2)]
 }
+
+module.exports.findMedianSortedArrays = findMedianSortedArrays
