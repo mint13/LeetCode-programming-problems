@@ -25,3 +25,5 @@ const expandAroundCenter = (s, leftIdx, rightIdx) => {
 	}
 	return [leftIdx + 1, rightIdx] 
 }
+
+module.exports.longestPalindrome = longestPalindrome
