@@ -27,3 +27,5 @@
 	}
 	return arr.join('')
 }
+
+module.exports.zigzagConvert = convert
