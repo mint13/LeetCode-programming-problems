@@ -27,3 +27,5 @@ const myAtoi = (s) => {
   
   return res * sign
 }
+
+module.exports.stringToInteger = myAtoi
