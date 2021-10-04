@@ -15,3 +15,5 @@ const isPalindrome = function (x) {
 	
 	return reverse === x
 }
+
+module.exports.isPalindrome = isPalindrome
