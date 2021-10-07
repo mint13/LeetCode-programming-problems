@@ -27,3 +27,5 @@ const intToRoman = (num) => {
 	}
 	return res
 }
+
+module.exports.intToRoman = intToRoman
