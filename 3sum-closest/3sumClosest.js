@@ -21,7 +21,7 @@ const threeSumClosest = function (nums, target) {
       } else {
         left += 1
       }
-			
+
       if (Math.abs(currentDiff) < diff) {
         result = sum
       }
@@ -30,3 +30,5 @@ const threeSumClosest = function (nums, target) {
   }
   return result
 }
+
+module.exports.threeSumClosest = threeSumClosest
