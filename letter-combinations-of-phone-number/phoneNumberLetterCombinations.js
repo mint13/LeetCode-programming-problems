@@ -37,4 +37,6 @@ const letterCombinations = (digits) => {
 			? getLetterCombinations(digits.slice(1), newPossibilities)
 			: newPossibilities
 	}
+
+	return getLetterCombinations(digits.toString(), [''])
 }
