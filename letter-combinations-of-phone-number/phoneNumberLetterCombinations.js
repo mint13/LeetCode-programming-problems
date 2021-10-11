@@ -40,3 +40,5 @@ const letterCombinations = (digits) => {
 
 	return getLetterCombinations(digits.toString(), [''])
 }
+
+module.exports.letterCombinations = letterCombinations
