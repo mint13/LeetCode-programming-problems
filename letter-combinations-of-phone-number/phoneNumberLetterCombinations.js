@@ -13,5 +13,7 @@
 	9: ['w', 'x', 'y', 'z'],
 }
 const letterCombinations = (digits) => {
-
+	// Return early if no digits were supplied
+	if (!digits.length)
+		return []
 }
