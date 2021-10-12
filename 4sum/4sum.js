@@ -53,3 +53,5 @@ const fourSum = (nums, target) => {
 	}
 	return quadruplets
 }
+
+module.exports.fourSum = fourSum
