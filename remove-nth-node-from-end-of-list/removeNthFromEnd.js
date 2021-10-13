@@ -26,3 +26,5 @@ const removeNthFromEnd = (head, n) => {
 	h2.next = h2.next.next
 	return head
 }
+
+module.exports.removeNthFromEnd = removeNthFromEnd
