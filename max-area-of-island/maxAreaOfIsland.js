@@ -23,3 +23,5 @@ const markIsland = (row, col, grid) => {
 	return 1 + markIsland(row + 1, col, grid) + markIsland(row - 1, col, grid) 
     + markIsland(row, col +1, grid) + markIsland(row, col - 1, grid)
 }
+
+module.exports.maxAreaOfIsland = maxAreaOfIsland
