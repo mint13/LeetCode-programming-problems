@@ -21,3 +21,5 @@ const linkThem = (smaller, greater) => {
 	smaller.next = mergeTwoLists(smaller.next, greater)
 	return smaller
 }
+
+module.exports.mergeTwoLists = mergeTwoLists
