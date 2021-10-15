@@ -13,3 +13,8 @@
 const mergeTwoLists = (l1, l2) => {
 
 }
+
+const linkThem = (smaller, greater) => {
+	smaller.next = mergeTwoLists(smaller.next, greater)
+	return smaller
+}
