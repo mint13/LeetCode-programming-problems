@@ -18,3 +18,5 @@ const generateParentheses = (n) => {
   aux('', 0, 0)
   return result
 }
+
+module.exports.generateParentheses = generateParentheses
