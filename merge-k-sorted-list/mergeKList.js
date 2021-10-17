@@ -24,3 +24,5 @@ const mergeKLists = (lists) => {
 	}
 	return res[0] || null
 }
+
+module.exports.mergeKLists = mergeKLists
