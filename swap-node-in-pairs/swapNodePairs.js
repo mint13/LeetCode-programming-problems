@@ -21,7 +21,9 @@ const swapPairs = (head) => {
 /**
  * Definition for singly-linked list.
  */
-function ListNode(val) {
+ function ListNode(val) {
 	this.val = val
 	this.next = null
 }
+
+module.exports.swapPairs = swapPairs
