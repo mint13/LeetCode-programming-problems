@@ -49,3 +49,5 @@ const getLength = (node) => {
 	}
 	return length
 }
+
+module.exports.reverseKGroup = reverseKGroup
