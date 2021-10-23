@@ -12,3 +12,5 @@
 	}
 	return left + 1
 }
+
+module.exports.removeDuplicates = removeDuplicates
