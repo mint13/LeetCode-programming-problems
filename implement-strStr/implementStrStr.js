@@ -18,3 +18,5 @@ const strStr = (haystack, needle) => {
 
 	return -1
 }
+
+module.exports.strStr = strStr
