@@ -39,3 +39,5 @@ const findSubstring = (s, words) => {
 
 	return res
 }
+
+module.exports.findSubstring = findSubstringq
