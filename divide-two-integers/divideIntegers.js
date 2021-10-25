@@ -31,3 +31,5 @@ const divide = (dividend, divisor) => {
 
 	return sign ? res : -res
 }
+
+module.exports.divideTwoIntegers = divide
