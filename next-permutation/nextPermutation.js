@@ -11,3 +11,11 @@ const swap = (arr, from, to) => {
 	arr[from] = arr[to]
 	arr[to] = tmp
 }
+
+const reverse = (arr, start, end) => {
+	while (start < end) {
+		swap(arr, start, end)
+		start++
+		end--
+	}
+}
