@@ -31,3 +31,5 @@ const reverse = (arr, start, end) => {
 		end--
 	}
 }
+
+module.exports.nextPermutation = nextPermutation
