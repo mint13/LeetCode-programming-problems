@@ -16,3 +16,5 @@
 
 	return Math.max(max, s.length - stack[stack.length - 1] - 1)
 }
+
+module.exports.longestValidParentheses = longestValidParentheses
