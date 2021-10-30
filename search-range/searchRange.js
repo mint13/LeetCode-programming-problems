@@ -4,7 +4,17 @@
  * @return {number[]}
  */
 const searchRange = (nums, target) => {
+	const res = [-1, -1],
+		left = find(nums, target, true),
+		right = find(nums, target, false)
 
+	if (!nums.length)
+		return res
+
+	if (left > right)
+		return res
+
+	return [left, right]
 }
 
 const find = (nums, target, findLeft) => {
