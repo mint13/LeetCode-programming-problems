@@ -33,3 +33,5 @@ const find = (nums, target, findLeft) => {
 
 	return findLeft ? left : right
 }
+
+module.exports.searchRange = searchRange
