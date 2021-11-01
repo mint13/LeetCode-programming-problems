@@ -21,3 +21,5 @@ const searchInsert = (nums, target) => {
 	}
 	return aux(0, nums.length - 1)
 }
+
+module.exports.searchInsert = searchInsert
