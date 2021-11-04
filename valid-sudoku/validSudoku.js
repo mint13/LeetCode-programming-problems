@@ -20,3 +20,5 @@ const isValidSudoku = (board) => {
 	}
 	return true
 }
+
+module.exports.isValidSudoku = isValidSudoku
