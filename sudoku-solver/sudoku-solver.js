@@ -3,6 +3,7 @@
  * @return {void} Do not return anything, modify board in-place instead.
  */
 const solveSudoku = (board) => {
+	solve(board)
 }
   
 const solve = (board) => {
