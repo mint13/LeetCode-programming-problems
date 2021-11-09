@@ -41,3 +41,5 @@ const isValid = (board, i, j, num) => {
 	}
 	return true
 }
+
+module.exports.solveSudoku = solveSudoku
