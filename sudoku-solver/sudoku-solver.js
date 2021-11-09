@@ -5,6 +5,28 @@
 const solveSudoku = (board) => {
 }
   
+const solve = (board) => {
+	for (let i = 0; i < 9; i++) {
+		for (let j = 0; j < 9; j++) {
+			if (board[i][j] !== '.')
+				continue
+				
+			for (let k = 1; k <= 9; k++) {
+				if (isValid(board, i, j, '' + k)) {
+						board[i][j] = '' + k
+					if (solve(board)) {
+						return true
+					} else {
+						board[i][j] = '.'
+					}
+				}
+			}
+			return false
+		}
+	}
+	return true
+}
+  
 const isValid = (board, i, j, num) => {
 	for (let k = 0; k < 9; k++) {
 		if (board[i][k] === num)
