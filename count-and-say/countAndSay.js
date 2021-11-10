@@ -39,3 +39,5 @@ const countAndSay = function(n) {
 
 	return str
 }
+
+module.exports.countAndSay = countAndSay
