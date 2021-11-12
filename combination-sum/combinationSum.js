@@ -25,3 +25,5 @@ const combinationSum = (candidates, target) => {
 	}
 	return result
 }
+
+module.exports.combinationSum = combinationSum
